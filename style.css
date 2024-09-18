@@ -1,0 +1,169 @@
+.invoice {
+    border: 1px solid green;
+    padding: 10px;
+    /* Adjust width and height as needed */
+    width: auto;
+    height: auto;
+    max-width: 800px;
+    margin:  auto;
+    
+    color: green;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    /* Match the font and size from the image */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+.Name{
+    background-color: green;
+    color: white;
+    width:fit-content;
+    margin: auto;
+    padding: 2px;
+}
+
+.invoice-details {
+    /* Adjust padding and margin to match the image */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* overflow-x: auto; */
+
+
+    th, td:nth-child(1) {
+        width: 10%;
+    }
+    td:nth-child(2) {
+        width: 50%;
+    }
+    td:nth-child(3) {
+        width: 15%;
+    }
+    td:nth-child(4) {
+        width: 15%;
+    }
+    td::nth-child(5){
+        width: 10%;
+    }
+}
+
+    /* max-width: 100%; */
+
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    /* Match font and size from the image */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    
+}
+
+.invoice-footer {
+    /* Adjust padding and margin to match the image */
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.qty{
+    width: 50px;
+}
+.description{
+    
+    white-space: normal;
+    resize: vertical;
+}
+.rate {
+    width: 100px;
+}
+.download{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 10%;
+    border: hidden;
+    margin: 10px;
+    color: white;
+}
+
+
+/* .invoice-details {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* Add more CSS rules to match specific elements in the image */
+/* Base styles for larger screens */
+
+
+/* Adjust styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .invoice {
+        padding: 10px;
+    }
+    header{
+        font-size: 10px
+
+    }
+    #invoice-form{ 
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    table {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+        max-width: 100%;
+        width: auto;
+        /* Adjust column widths using relative units */
+        font-size: 12px;
+
+        
+    }
+    
+
+    th, td {
+        padding: 4px;
+    }
+
+    /* Hide or collapse columns as needed */
+    th, td:nth-child(1) {
+        width: 5%;
+
+    }
+    th, td:nth-child(2) {
+        width: 5%;
+
+    }
+    .qty{
+        width: 40px;;
+    }
+    .description{
+        max-width:90px;
+        resize: vertical;
+        
+    }
+    .rate{
+        max-width: 40px;;
+    }
+    .amount{
+        max-width: 100px;
+
+
+    }
+    .delete-item{
+        max-width: 30px;
+
+    }
+}
+
+    /* Adjust other styles as needed */
