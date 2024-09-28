@@ -78,11 +78,18 @@ th, td {
 }
 .description{
     
-    white-space: normal;
-    resize: vertical;
+    /* white-space: normal; */
+    width: 100%;
+    text-wrap: wrap;
+    
+    
+
+    
 }
 .rate {
     width: 100px;
+    
+    
 }
 .download{
     background-color: blue;

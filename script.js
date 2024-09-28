@@ -10,7 +10,7 @@ function addItem() {
     row.innerHTML = `
         <td><input type="number" class="qty"></td>
         <td><input type="text" class="description"></td>
-        <td><input type="text" class="rate"></td>
+        <td><input type="number" class="rate"></td>
         <td><span class="amount">0</span></td>
         <td><button type="button" class="delete-item">Del</button></td>
     `;
