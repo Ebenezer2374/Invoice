@@ -79,7 +79,7 @@ th, td {
 .description{
     
     /* white-space: normal; */
-    width: 100%;
+    width: 95%;
     text-wrap: wrap;
     
     
@@ -88,7 +88,7 @@ th, td {
 }
 .rate {
     width: 100px;
-    
+
     
 }
 .download{
